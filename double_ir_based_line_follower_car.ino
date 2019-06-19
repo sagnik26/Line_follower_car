@@ -51,10 +51,10 @@ void forward()
 {
   
   
-  digitalWrite(a1,LOW);
-  digitalWrite(a2,HIGH);
-  digitalWrite(b1,LOW);
-  digitalWrite(b2,HIGH);
+  digitalWrite(a1,HIGH);
+  digitalWrite(a2,LOW);
+  digitalWrite(b1,HIGH);
+  digitalWrite(b2,LOW);
 
   
 }
@@ -63,10 +63,10 @@ void right()
 {
   
   
-  digitalWrite(a1,LOW);
-  digitalWrite(a2,HIGH);
-  digitalWrite(b1,HIGH);
-  digitalWrite(b2,LOW);
+  digitalWrite(a1,HIGH);
+  digitalWrite(a2,LOW);
+  digitalWrite(b1,LOW);
+  digitalWrite(b2,HIGH);
 
   
   
@@ -76,10 +76,10 @@ void left()
 {
   
   
-   digitalWrite(a1,HIGH);
-  digitalWrite(a2,LOW);
-  digitalWrite(b1,LOW);
-  digitalWrite(b2,HIGH);
+   digitalWrite(a1,LOW);
+  digitalWrite(a2,HIGH);
+  digitalWrite(b1,HIGH);
+  digitalWrite(b2,LOW);
   
   
   
